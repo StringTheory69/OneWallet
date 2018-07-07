@@ -70,10 +70,8 @@ extension SidePanelViewController: UITableViewDataSource {
         if indexPath.section == 1 {
             cell.setup((sidePanelPresenter.accounts?.accounts![indexPath.row])!)
             return cell
-        } else if indexPath.section == 0 {
+        } else  {
             cell.setRegulars(indexPath.row)
-            return cell
-        } else {
             return cell
         }
     }
@@ -84,6 +82,7 @@ extension SidePanelViewController: UITableViewDataSource {
             let selected = sidePanelPresenter.selected
         
             // MARK: check if selected Account is already open in AccountView
+            
             if id != selected {
                 sidePanelPresenter.selected = id
                 sidePanelPresenter.accountPresenter.getAccount(accountIdentifier: id!)
@@ -96,22 +95,13 @@ extension SidePanelViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
-        if section == 1 {
         let header = view as? UITableViewHeaderFooterView
         header?.backgroundView?.backgroundColor = UIColor.clear
-        header?.textLabel?.font = UIFont(name: "Helvetica Neue", size: 16) // change it according to ur requirement
-        header?.textLabel?.textColor = UIColor(red: 218/255, green: 218/255, blue: 218/255, alpha: 1) // change it according to ur requirement
+        header?.textLabel?.font = UIFont(name: "Helvetica Neue", size: 16)
+        header?.textLabel?.textColor = UIColor(red: 218/255, green: 218/255, blue: 218/255, alpha: 1)
         header?.layer.addBorder(edge: .top, color: UIColor.lightGray, thickness: 0.6)
         header?.layer.addBorder(edge: .bottom, color: UIColor.lightGray, thickness: 0.6)
-            
-        } else {
-            let header = view as? UITableViewHeaderFooterView
-            header?.backgroundView?.backgroundColor = UIColor.clear
-            header?.textLabel?.font = UIFont(name: "Helvetica Neue", size: 16) // change it according to ur requirement
-            header?.textLabel?.textColor = UIColor(red: 218/255, green: 218/255, blue: 218/255, alpha: 1) // change it according to ur requirement
-            header?.layer.addBorder(edge: .top, color: UIColor.lightGray, thickness: 0.6)
-//            header?.layer.addBorder(edge: .bottom, color: UIColor.lightGray, thickness: 0.6)
-        }
+
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -134,36 +124,13 @@ extension SidePanelViewController: SidePanelView {
  
         sidePanelPresenter.accounts = accounts
         tableView?.isHidden = false
-        // emptyView?.isHidden = true;
         tableView?.reloadData()
     }
     
     func setNoAccount() {
- 
         tableView?.isHidden = true
-        // emptyView?.isHidden = false;
     }
 
-}
-
-class SidePanelCell: UITableViewCell {
-    
-    @IBOutlet weak var accountNameLabel: UILabel!
-    @IBOutlet weak var institutionImage: CircleImageView!
-    
-    func setRegulars(_ row: Int) {
-        if row == 0 {
-            accountNameLabel.text = "Profile"
-        } else {
-            accountNameLabel.text = "New Account"
-        }
-    }
-
-    func setup(_ account: AccountReference) {
-        accountNameLabel.text = account.name
-        accountNameLabel.textColor = UIColor(red: 218/255, green: 218/255, blue: 218/255, alpha: 1)
-        institutionImage.image = account.institution?.image
-    }
 }
 
 

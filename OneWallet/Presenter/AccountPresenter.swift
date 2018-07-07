@@ -31,6 +31,8 @@ extension AccountPresenter {
         accountView = nil
     }
     
+    // seems like this is redundant function - object mapped in service layer - suggestions?
+    
     func getAccount(accountIdentifier: String){
         self.accountView?.startLoading()
         serviceLayer.getAccount(accountIdentifier: accountIdentifier){ [weak self] account in

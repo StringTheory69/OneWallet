@@ -50,6 +50,8 @@ extension SidePanelPresenter {
         sidePanelView = nil
     }
     
+    // seems like this is redundant function - object mapped in service layer - suggestions?
+
     func getAccount(){
         self.sidePanelView?.startLoading()
         serviceLayer.getAccountsReferences{ [weak self] accountsReferences in
