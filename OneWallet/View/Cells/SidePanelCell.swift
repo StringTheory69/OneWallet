@@ -20,5 +20,7 @@ class SidePanelCell: UITableViewCell {
         accountNameLabel.text = account.name
         accountNameLabel.textColor = UIColor(red: 218/255, green: 218/255, blue: 218/255, alpha: 1)
         institutionImage.image = account.institution?.image
+        print("help")
     }
 }
+
