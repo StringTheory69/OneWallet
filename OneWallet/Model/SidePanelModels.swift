@@ -1,5 +1,6 @@
 //  Created by jacob small on 6/23/18.
 //  Copyright © 2018 jacob small. All rights reserved.
+// not sure
 
 import Foundation
 import ObjectMapper
@@ -16,6 +17,7 @@ class AccountsReferences: Mappable {
     
     init?(accountsReferences: [AccountReference]) {
         self.accountsReferences = accountsReferences
+        print("did it")
     }
     
     required init?(map: Map) {
