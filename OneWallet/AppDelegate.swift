@@ -18,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.rootViewController = container
         window?.makeKeyAndVisible()
+        
+        print("new commit")
 
         return true
     }
