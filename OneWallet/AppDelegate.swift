@@ -18,9 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.rootViewController = container
         window?.makeKeyAndVisible()
-        
-        print("new commit")
-
+        print("commited to you")
         return true
     }
 }
