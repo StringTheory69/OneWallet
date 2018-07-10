@@ -35,7 +35,8 @@ class SidePanelViewController: UIViewController, UITableViewDelegate {
 
 // Table View Data Source
 
-// MARK: I need to deal with all this logic!
+// #2 TODO: I need to deal with all this logic!
+// Should I add data source to presenter?
 
 extension SidePanelViewController: UITableViewDataSource {
     

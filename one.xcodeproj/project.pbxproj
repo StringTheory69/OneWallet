@@ -15,17 +15,18 @@
 		9764C3BB1C63D46E0089151E /* UserPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9764C3BA1C63D46E0089151E /* UserPresenterTest.swift */; };
 		9764C3C81C63D56C0089151E /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9764C3C71C63D56C0089151E /* ServiceLayer.swift */; };
 		9764C3CA1C63D8A20089151E /* AccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9764C3C91C63D8A20089151E /* AccountPresenter.swift */; };
-		9F3DA45C20E1A7AB00F02569 /* AccountModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3DA45B20E1A7AB00F02569 /* AccountModels.swift */; };
-		9F3DA45E20E1A7B800F02569 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3DA45D20E1A7B800F02569 /* AccountViewController.swift */; };
+		9F3DA45C20E1A7AB00F02569 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3DA45B20E1A7AB00F02569 /* AccountModel.swift */; };
+		9F3DA45E20E1A7B800F02569 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3DA45D20E1A7B800F02569 /* AccountVC.swift */; };
 		9F772FBB20EA858B001893E2 /* SidePanelPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F772FBA20EA858B001893E2 /* SidePanelPresenter.swift */; };
-		9F772FC420EAD669001893E2 /* SpecialViewClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F772FC320EAD669001893E2 /* SpecialViewClasses.swift */; };
-		9F772FC620EB3AC4001893E2 /* AddBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F772FC520EB3AC4001893E2 /* AddBankViewController.swift */; };
+		9F772FC420EAD669001893E2 /* SpecialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F772FC320EAD669001893E2 /* SpecialView.swift */; };
+		9F772FC620EB3AC4001893E2 /* AddBankVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F772FC520EB3AC4001893E2 /* AddBankVC.swift */; };
 		9F772FC820EB3ED5001893E2 /* AddBankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F772FC720EB3ED5001893E2 /* AddBankModel.swift */; };
 		9F772FCA20EBF97B001893E2 /* AddBankPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F772FC920EBF97B001893E2 /* AddBankPresenter.swift */; };
+		9F978D4020F5721500D3D6D0 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F978D3F20F5721500D3D6D0 /* TODO.swift */; };
 		9FA6C81A20F01FEA00E03EFD /* ContainerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6C81920F01FEA00E03EFD /* ContainerPresenter.swift */; };
-		9FA6C81C20F01FEF00E03EFD /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6C81B20F01FEF00E03EFD /* Container.swift */; };
-		9FD856C220E2AE9900CCF0B8 /* SidePanelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD856C120E2AE9900CCF0B8 /* SidePanelModels.swift */; };
-		9FD856C420E2AEB200CCF0B8 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD856C320E2AEB200CCF0B8 /* SidePanelViewController.swift */; };
+		9FA6C81C20F01FEF00E03EFD /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6C81B20F01FEF00E03EFD /* ContainerVC.swift */; };
+		9FD856C220E2AE9900CCF0B8 /* SidePanelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD856C120E2AE9900CCF0B8 /* SidePanelModel.swift */; };
+		9FD856C420E2AEB200CCF0B8 /* SidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD856C320E2AEB200CCF0B8 /* SidePanelVC.swift */; };
 		9FF76E5620F0467A0029324C /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF76E5520F0467A0029324C /* UIExtensions.swift */; };
 		9FF76E5820F057B20029324C /* SidePanelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF76E5720F057B20029324C /* SidePanelCell.swift */; };
 		9FF76E5B20F058200029324C /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF76E5A20F058200029324C /* TransactionCell.swift */; };
@@ -57,17 +58,18 @@
 		9764C3BC1C63D46E0089151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9764C3C71C63D56C0089151E /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 		9764C3C91C63D8A20089151E /* AccountPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountPresenter.swift; sourceTree = "<group>"; };
-		9F3DA45B20E1A7AB00F02569 /* AccountModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountModels.swift; sourceTree = "<group>"; };
-		9F3DA45D20E1A7B800F02569 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		9F3DA45B20E1A7AB00F02569 /* AccountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		9F3DA45D20E1A7B800F02569 /* AccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		9F772FBA20EA858B001893E2 /* SidePanelPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelPresenter.swift; sourceTree = "<group>"; };
-		9F772FC320EAD669001893E2 /* SpecialViewClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialViewClasses.swift; sourceTree = "<group>"; };
-		9F772FC520EB3AC4001893E2 /* AddBankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankViewController.swift; sourceTree = "<group>"; };
+		9F772FC320EAD669001893E2 /* SpecialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialView.swift; sourceTree = "<group>"; };
+		9F772FC520EB3AC4001893E2 /* AddBankVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankVC.swift; sourceTree = "<group>"; };
 		9F772FC720EB3ED5001893E2 /* AddBankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankModel.swift; sourceTree = "<group>"; };
 		9F772FC920EBF97B001893E2 /* AddBankPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankPresenter.swift; sourceTree = "<group>"; };
+		9F978D3F20F5721500D3D6D0 /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		9FA6C81920F01FEA00E03EFD /* ContainerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPresenter.swift; sourceTree = "<group>"; };
-		9FA6C81B20F01FEF00E03EFD /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
-		9FD856C120E2AE9900CCF0B8 /* SidePanelModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelModels.swift; sourceTree = "<group>"; };
-		9FD856C320E2AEB200CCF0B8 /* SidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+		9FA6C81B20F01FEF00E03EFD /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		9FD856C120E2AE9900CCF0B8 /* SidePanelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelModel.swift; sourceTree = "<group>"; };
+		9FD856C320E2AEB200CCF0B8 /* SidePanelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelVC.swift; sourceTree = "<group>"; };
 		9FF76E5520F0467A0029324C /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		9FF76E5720F057B20029324C /* SidePanelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelCell.swift; sourceTree = "<group>"; };
 		9FF76E5A20F058200029324C /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		9764C3A41C63D46E0089151E /* OneWallet */ = {
 			isa = PBXGroup;
 			children = (
+				9F978D3F20F5721500D3D6D0 /* TODO.swift */,
 				9764C3A51C63D46E0089151E /* AppDelegate.swift */,
 				9764C3A91C63D46E0089151E /* Main.storyboard */,
 				9764C3AC1C63D46E0089151E /* Assets.xcassets */,
@@ -164,8 +167,8 @@
 		9F3DA45720E1A76900F02569 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9FD856C120E2AE9900CCF0B8 /* SidePanelModels.swift */,
-				9F3DA45B20E1A7AB00F02569 /* AccountModels.swift */,
+				9FD856C120E2AE9900CCF0B8 /* SidePanelModel.swift */,
+				9F3DA45B20E1A7AB00F02569 /* AccountModel.swift */,
 				9F772FC720EB3ED5001893E2 /* AddBankModel.swift */,
 			);
 			path = Model;
@@ -193,12 +196,12 @@
 		9F3DA45A20E1A78800F02569 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9FA6C81B20F01FEF00E03EFD /* Container.swift */,
-				9FD856C320E2AEB200CCF0B8 /* SidePanelViewController.swift */,
-				9F3DA45D20E1A7B800F02569 /* AccountViewController.swift */,
-				9F772FC520EB3AC4001893E2 /* AddBankViewController.swift */,
+				9FA6C81B20F01FEF00E03EFD /* ContainerVC.swift */,
+				9FD856C320E2AEB200CCF0B8 /* SidePanelVC.swift */,
+				9F3DA45D20E1A7B800F02569 /* AccountVC.swift */,
+				9F772FC520EB3AC4001893E2 /* AddBankVC.swift */,
 				9FF76E5C20F058370029324C /* Cells */,
-				9F772FC320EAD669001893E2 /* SpecialViewClasses.swift */,
+				9F772FC320EAD669001893E2 /* SpecialView.swift */,
 				9FF76E5520F0467A0029324C /* UIExtensions.swift */,
 			);
 			path = View;
@@ -430,20 +433,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9764C3C81C63D56C0089151E /* ServiceLayer.swift in Sources */,
-				9F3DA45E20E1A7B800F02569 /* AccountViewController.swift in Sources */,
+				9F3DA45E20E1A7B800F02569 /* AccountVC.swift in Sources */,
 				9FF76E5B20F058200029324C /* TransactionCell.swift in Sources */,
 				9764C3A61C63D46E0089151E /* AppDelegate.swift in Sources */,
 				9FF76E5820F057B20029324C /* SidePanelCell.swift in Sources */,
+				9F978D4020F5721500D3D6D0 /* TODO.swift in Sources */,
 				9F772FC820EB3ED5001893E2 /* AddBankModel.swift in Sources */,
-				9FD856C220E2AE9900CCF0B8 /* SidePanelModels.swift in Sources */,
-				9FD856C420E2AEB200CCF0B8 /* SidePanelViewController.swift in Sources */,
-				9F772FC420EAD669001893E2 /* SpecialViewClasses.swift in Sources */,
+				9FD856C220E2AE9900CCF0B8 /* SidePanelModel.swift in Sources */,
+				9FD856C420E2AEB200CCF0B8 /* SidePanelVC.swift in Sources */,
+				9F772FC420EAD669001893E2 /* SpecialView.swift in Sources */,
 				9764C3CA1C63D8A20089151E /* AccountPresenter.swift in Sources */,
 				9F772FCA20EBF97B001893E2 /* AddBankPresenter.swift in Sources */,
-				9F3DA45C20E1A7AB00F02569 /* AccountModels.swift in Sources */,
+				9F3DA45C20E1A7AB00F02569 /* AccountModel.swift in Sources */,
 				9FF76E5620F0467A0029324C /* UIExtensions.swift in Sources */,
-				9F772FC620EB3AC4001893E2 /* AddBankViewController.swift in Sources */,
-				9FA6C81C20F01FEF00E03EFD /* Container.swift in Sources */,
+				9F772FC620EB3AC4001893E2 /* AddBankVC.swift in Sources */,
+				9FA6C81C20F01FEF00E03EFD /* ContainerVC.swift in Sources */,
 				9FA6C81A20F01FEA00E03EFD /* ContainerPresenter.swift in Sources */,
 				9F772FBB20EA858B001893E2 /* SidePanelPresenter.swift in Sources */,
 			);

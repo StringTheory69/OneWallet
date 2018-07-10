@@ -5,7 +5,10 @@ import UIKit
 
 class Container: UIViewController {
     
+    // Presenter
     fileprivate var containerPresenter: ContainerPresenter!
+    
+    // ViewControllers
     fileprivate var sidePanelController: SidePanelViewController
     fileprivate var accountController: AccountViewController
     fileprivate var addBankVC: AddBankViewController
@@ -29,12 +32,14 @@ class Container: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
+        // Presenter Setup
         containerPresenter.setup(container: self)
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        // Layout SidePanelVC and AccountVC in ContainerVC
         containerPresenter.layout()
     }
 }

@@ -1,6 +1,8 @@
 //  Created by jacob small on 6/23/18.
 //  Copyright © 2018 jacob small. All rights reserved.
 
+// #5 TODO: how do I deal with these types of UI related extensions? 
+
 import UIKit
 
 extension CALayer {

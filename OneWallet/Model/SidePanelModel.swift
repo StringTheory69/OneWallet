@@ -1,6 +1,7 @@
 //  Created by jacob small on 6/23/18.
 //  Copyright © 2018 jacob small. All rights reserved.
-// not sure
+
+//  #1 TODO: should I use Object Mapper?
 
 import Foundation
 import ObjectMapper
@@ -51,6 +52,8 @@ class AccountReference: Mappable {
     }
 }
 
+// #11 TODO: Create enum with pngs for all institutions offered - will needed to be updated as institutions are added 
+
 enum Institution: String {
     case BofA = "BofA"
     case WF = "WF"
@@ -66,5 +69,4 @@ enum Institution: String {
         }
     }
 }
-// Create enum for institution
 

@@ -19,7 +19,7 @@ class AccountPresenter {
     }
 }
 
-// delegate functions
+// #6 TODO: what is most efficient way to use delegate functions in this architecture 
 
 extension AccountPresenter {
     
@@ -31,7 +31,7 @@ extension AccountPresenter {
         accountView = nil
     }
     
-    // seems like this is redundant function - object mapped in service layer - suggestions?
+    // #7 TODO: seems like this is redundant function - object already mapped in service layer 
     
     func getAccount(accountIdentifier: String){
         self.accountView?.startLoading()

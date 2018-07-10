@@ -5,9 +5,19 @@ import Foundation
 import Alamofire
 import AlamofireObjectMapper
 
+//    #8 TODO: Data Loading
+//    Should I be loading all accounts with transactions fully in the beginning?
+
+//    #9 TODO: Mapping
+//    I parse API data in backend before sending to iOS App
+//    Is it necessary to map from json to model and then to another model? – could this be useful layer in future?
+
+//    #10 TODO: Presistent Data
+//    Add persistent data services – Core Data? Realm DB?
+
 class ServiceLayer {
 
-//    the service delivers mocked data with a delay
+    //    the service currently delivers mocked data with a delay
     
     func getAccount(accountIdentifier: String, _ callBack:@escaping (Account) -> Void){
 
