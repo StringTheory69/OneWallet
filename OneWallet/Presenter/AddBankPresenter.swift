@@ -36,7 +36,7 @@ class AddBankPresenter: NSObject, WKNavigationDelegate {
     // generateLinkInitializationURL :: create the link.html url with query parameters
     func generateRequest() -> URLRequest {
         let config = [
-            "key": "49e9d89451d22c60cd68d606b0bbe6",
+            "key": "key",
             "env": "development",
             "apiVersion": "v2", // set this to "v1" if using the legacy Plaid API
             "product": "transactions, auth",
